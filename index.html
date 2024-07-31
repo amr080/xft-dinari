@@ -1,36 +1,615 @@
-<!DOCTYPE html><!-- Last Published: Fri Jul 19 2024 05:27:16 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="dinari.com" data-wf-page="656fd13bce08f2dc3bc50578" data-wf-site="656fd13bce08f2dc3bc50573" lang="en"><head><meta charset="utf-8"/><title>Dinari - Tokenized Stocks, ETFs, &amp; More</title><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/css/dinari-marketing-website.webflow.b586ee367.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["DM Sans:regular,500,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658f2b4773540356a17c9640_dinari-favicon-32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658f2bb531d16c0a01a69f99_dinari-icon-256.png" rel="apple-touch-icon"/><script defer data-domain="dinari.com,rollup.dinari.com" data-api="/pvend/p/e" src="/pvend/p/s.js"></script>
+<!DOCTYPE html><!-- Last Published: Fri Jul 19 2024 05:27:16 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="https://x-ledger.replit.app/" data-wf-page="656fd13bce08f2dc3bc50578" data-wf-site="656fd13bce08f2dc3bc50573"
+  lang="en">
 
-<!-- OneTrust Cookies Consent Notice start for dinari.com -->
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="a416c7d0-f3aa-4b25-84e1-14e3552583ec" ></script>
-<script type="text/javascript">
-  function OptanonWrapper() { }
-</script>
-<!-- OneTrust Cookies Consent Notice end for dinari.com -->
+<head>
+  <meta charset="utf-8" />
+  <title>XFT - Tokenized Stocks, ETFs, &amp; More</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link
+    href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/css/dinari-marketing-website.webflow.b586ee367.min.css"
+    rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({ google: { families: ["DM Sans:regular,500,700"] } });</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <link
+    href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658f2b4773540356a17c9640_dinari-favicon-32.png"
+    rel="shortcut icon" type="image/x-icon" />
+  <link href="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658f2bb531d16c0a01a69f99_dinari-icon-256.png"
+    rel="apple-touch-icon" />
+  <script defer data-domain="dinari.com,rollup.dinari.com" data-api="/pvend/p/e" src="/pvend/p/s.js"></script>
 
-<style>.w-webflow-badge{display: none !important;}.nav-dropdown-toggler .nav-dropdown-icon,.mobile-dropdown-toggler .mobile-dropdown-icon{transition:transform ease .3s}.nav-dropdown-toggler.w--open .nav-dropdown-icon,.mobile-dropdown-toggler.w--open .mobile-dropdown-icon{transform:rotate(180deg)}.nav-dropdown-toggler.w--open .nav-dropdown-icon::before,.nav-dropdown-toggler.w--open .nav-dropdown-text{color:#07846d}.mobile-dropdown-toggler.w--open .mobile-dropdown-icon::before,.mobile-dropdown-toggler.w--open .mobile-dropdown-text{color:#122023}.restricted .restricted-country{display:flex}.not-restricted .restricted-country{display:none}</style>
-</head><body class="body"><div class="w-embed"><style>body{position:relative;}</style></div><div id="restricted-country" class="w-layout-blockcontainer restricted-country w-container"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e862aa0d3fa3f98a4ad096_location-icon.svg" loading="lazy" width="Auto" height="Auto" alt="Location alert icon
-" class="geotarget-icon"/><p class="restricted-country-text"><strong>Dinari dShare tokens are not available for sale or redemption in your country.</strong> Please see <a href="https://docs.dinari.com/user-guide/unsupported-countries" target="_blank" class="link">our documentation</a> for more details.</p></div><div class="top-banner"><p class="top-banner-text">Sign up &amp; make a qualifying purchase to receive a dShare Mystery Box. <a href="https://sbt.dinari.com/tokens?utm_source=dinhome&amp;utm_medium=banner&amp;utm_campaign=signupbonus" target="_blank" class="top-banner-link">Sign up now</a></p></div><nav id="navbar" class="navbar"><div class="mobile-toogler-container"><div class="mobile-menu-button"><a toggle-menu="toggle" href="https://sbt.dinari.com/" target="_blank" class="button-primary button-small w-button">Launch App</a></div><div id="menu-toggler" data-w-id="0e042d56-79f0-e9d9-9fdb-362f6ccb8800" class="menu-toggler"><div class="menu-line-wrapper"><div class="top-line"></div><div class="middle-line"></div><div class="bottom-line"></div></div></div></div><div class="site-header"><a href="/" aria-current="page" class="w-inline-block w--current"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657085889670bafa97d34234_dinari-logo-black.svg" loading="lazy" alt="Dinari Logo"/></a><div class="display-flex align-items-center gap-medium"><div class="main-menu-container"><div data-hover="true" data-delay="0" class="nav-dropdown w-dropdown"><div class="nav-dropdown-toggler w-dropdown-toggle"><div class="nav-dropdown-icon w-icon-dropdown-toggle"></div><div class="nav-dropdown-text">Products</div></div><nav class="nav-dropdown-menu w-dropdown-list"><a href="https://sbt.dinari.com/" target="_blank" class="nav-dropdown-link w-dropdown-link">dShares</a><a href="https://usd.dinari.com/" target="_blank" class="nav-dropdown-link w-dropdown-link">USD+</a><a href="https://api-enterprise.sbt.dinari.com/api/v1/docs#overview" target="_blank" class="nav-dropdown-link w-dropdown-link">API</a></nav></div><a href="/business" class="nav-link">For Business</a><a href="/transparency" class="nav-link">Transparency</a><a href="/blog" class="nav-link">Blog</a></div><a href="https://sbt.dinari.com/" target="_blank" class="button-primary w-button">Launch App</a></div></div><div class="mobile-menu"><div class="mobile-menu-links"><div data-hover="false" data-delay="0" class="mobile-dropdown w-dropdown"><div class="mobile-dropdown-toggler w-dropdown-toggle"><div class="mobile-dropdown-icon w-icon-dropdown-toggle"></div><div class="mobile-dropdown-text">Products</div></div><nav class="mobile-dropdown-list w-dropdown-list"><a href="https://sbt.dinari.com/" target="_blank" class="mobile-dropdown-link w-dropdown-link">dShares</a><a href="https://usd.dinari.com/" target="_blank" class="mobile-dropdown-link w-dropdown-link">USD+</a><a href="https://api-enterprise.sbt.dinari.com/api/v1/docs#overview" target="_blank" class="mobile-dropdown-link w-dropdown-link">API</a></nav></div><a href="/business" toggle-menu="toggle" class="mobile-menu-link">For Business</a><a toggle-menu="toggle" href="/transparency" class="mobile-menu-link">Transparency</a><a toggle-menu="toggle" href="/blog" class="mobile-menu-link">Blog</a></div></div></nav><section class="bg-hero"><div class="hero hero-home anim"><h1 class="h1 anim">Securities <span class="text-green">Backed</span> Tokens<br/></h1><p class="hero-lead anim">Dinari Securities Backed Tokens (dShares) provide direct exposure to the world&#x27;s most trusted assets such as Google and Apple shares.</p><a href="https://sbt.dinari.com/" target="_blank" class="button-primary button-large anim w-button">Launch App</a><div class="assets anim"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6570b0fb72600af807e006d0_d-avatar-gray.svg" loading="lazy" alt="Dinari gray icon"/><div data-delay="3000" data-animation="outin" class="assets-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true"><div class="mask w-slider-mask"><div class="asset-slide w-slide"><p class="assets-slider-text">AAPL.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">AMZN.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">DIS.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">GOOGL.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">META.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">MSFT.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">NFLX.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">NVDA.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">PFE.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">PYPL.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">TSLA.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">SPY.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">USFR.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">COIN.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">ARM.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">AMD.d</p></div><div class="asset-slide w-slide"><p class="assets-slider-text">PLD.d</p></div></div></div></div></div></section><section class="section-padding"><div class="w-layout-blockcontainer generic-container w-container"><div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fa-3bc50578" class="w-layout-layout app-features wf-layout-layout"><div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fb-3bc50578" class="w-layout-cell"><div class="app-feature"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206dcae29e25f6b0329c8_icon-garden.svg" loading="lazy" alt="App Feature Icon" class="app-feature-icon"/><div class="app-feature-text"><h2 class="app-feature-title">Secure and Convenient<br/></h2><p class="app-feature-desc">Transparent, programmable, and accessible around the world, Dinari tokens enable new ways of accruing value.<br/></p></div></div></div><div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fc-3bc50578" class="w-layout-cell cell"></div><div id="w-node-f61692ac-2793-db12-44eb-ff87cf7bd03e-3bc50578" class="w-layout-cell cell-2"></div><div id="w-node-bbc1f7d1-5b8b-1cb9-db00-8e03e8a31d32-3bc50578" class="w-layout-cell"><div class="app-feature"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206ddbd9c07601c625217_icon-leafy.svg" loading="lazy" alt="App Feature Icon" class="app-feature-icon"/><div class="app-feature-text"><h2 class="app-feature-title">Backed 1-to-1<br/></h2><p class="app-feature-desc">Each token is backed at least 100% by Dinari&#x27;s reserves.<br/></p><a href="https://www.dinari.com/transparency" class="button-secondary app-feature-cta w-button">See Current Balances</a></div></div></div><div id="w-node-_6aecbf5c-1e7c-d246-c927-93b725c3ec17-3bc50578" class="w-layout-cell"><div class="app-feature"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206dc3424bba6d63632bd_icon-pool.svg" loading="lazy" alt="App Feature Icon" class="app-feature-icon"/><div class="app-feature-text"><h2 class="app-feature-title">Dividends<br/></h2><p class="app-feature-desc">Dinari token holders can receive dividends and distributions. Log in to access distributions.<br/></p><a href="https://sbt.dinari.com/" target="_blank" class="button-secondary app-feature-cta w-button">Launch App</a></div></div></div><div id="w-node-_5087b3f3-c18e-9d6b-dc1e-1058ab3572f7-3bc50578" class="w-layout-cell cell-3"></div></div></div></section><section><h2 class="section-title section-title-sm">Investors</h2><div class="logos-container"><a href="http://3kvc.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67d202ca52a91441b0_3k-logo.svg" loading="lazy" width="24" alt="3K Logo" class="_3k-logo"/></a><a href="https://500.co/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67444513a9d94d7fdf_500-logo.svg" loading="lazy" width="80" alt="500 Logo" class="_500-logo"/></a><a href="https://www.alchemy.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67b7fadab30e1ff986_alchemy-logo.svg" loading="lazy" width="132" alt="Alchemy Logo" class="alchemy-logo"/></a><a href="https://alliance.xyz/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66589f6165a565630a21e426_alliance-logo.svg" loading="lazy" width="132" alt="Alchemy Logo" class="alchemy-logo"/></a><a href="https://sancusvc.com" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67496fb34e5f7446e9_sancus-ventures-logo.svg" loading="lazy" width="48" alt="Sancus Ventures Logo" class="sancus-logo"/></a><a href="https://sig.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720f16f9a41732d6d2f953_logo-sigglobal.svg" loading="lazy" width="105" alt="Sig Global Logo" class="sig-logo"/></a><a href="https://versionone.vc/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e674e4de6e40b17c39e_versionone-logo.svg" loading="lazy" width="141" alt="Version One Logo" class="versionone-logo"/></a></div></section><section><h2 class="section-title section-title-sm">Ecosystem</h2><div class="logos-container logos-container-sm"><a href="https://ajnafi.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65ca348390920b3b8a2eff1b_ajna-logo.svg" loading="lazy" width="Auto" alt="Ajna Logo" class="ajna-logo"/></a><a href="https://www.alchemy.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67b7fadab30e1ff986_alchemy-logo.svg" loading="lazy" width="132" height="Auto" alt="Alchemy Logo" class="alchemy-logo"/></a><a href="https://alpaca.markets/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572114f1cc4c95c2e1695c5_alpaca-logo-grey.svg" loading="lazy" width="118" alt="Alpaca Logo" class="alpaca-logo"/></a><a href="https://arbitrum.io/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572120cda4c4aa5b6f55caf_ARB_logo.svg" loading="lazy" width="157" alt="Arbitrum Logo" class="arbitrum-logo"/></a><a href="https://asymmetric.financial/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff287590e467e6e2e8_asymmetric-logo.svg" loading="lazy" width="134" alt="Arbitrum Logo" class="asymmetric-logo"/></a><a href="https://www.base.org/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff5a9d09ad2e64b407_base-logo.svg" loading="lazy" width="106" alt="Arbitrum Logo" class="base-logo"/></a><a href="https://blast.io/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638ed58fcda0423aca25d_blast-logo.svg" loading="lazy" width="126" alt="Blast Logo" class="blast-logo"/></a><a href="https://www.cadanapay.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67bc06c91cb1d6973f_cadana-logo.svg" loading="lazy" width="124" alt="Cadana Logo" class="cadana-logo"/></a><a href="https://info.camelot.exchange/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65ca347f54161f1a7cf2d723_camelot-logo.svg" loading="lazy" width="124" alt="Camelot Logo" class="camelot-logo"/></a><a href="https://chain.link/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66180fba4d7f0ad45c023d53_chainlink-logo.svg" loading="lazy" width="130" alt="Chainlink Logo" class="chainlink-logo"/></a><a href="https://www.coingecko.com/en/coins/dinari-googl" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572117dd6aa2ddc635bed97_coingecko.svg" loading="lazy" width="150" alt="CoinGecko Logo" class="coingecko-logo"/></a><a href="https://coinmarketcap.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317f0941d3afd35e5786_coinmarketcap-logo-ok.svg" loading="lazy" width="185" alt="CoinMarketCap Logo" class="coinmarketcap-logo"/></a><a href="https://defillama.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638ee500fbf2725e410df_defillama-logo.svg" loading="lazy" width="141" alt="DefiLlama Logo" class="defillama-logo"/></a><a href="https://ethereum.org/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65f4458883112cf8205e2e3c_ethereum-logo.svg" loading="lazy" width="166" alt="Ethereum Logo" class="ethereum-logo"/></a><a href="https://www.fordefi.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693e9fd734ffdfc2a6a8_fordefi-logo.svg" loading="lazy" width="137" alt="ForDefi Logo" class="fordefi-logo"/></a><a href="https://hacken.io/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317e4f738b59c2358fd1_hacken-logo-ok.svg" loading="lazy" width="136" alt="Hacken Logo" class="hacken-logo"/></a><a href="https://www.hydrax.io/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66858331e2e04191ab9801d6_hidrax-logo.svg" loading="lazy" width="144" alt="Hacken Logo" class="hidrax-logo"/></a><a href="https://jup.ag/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff16ebf768b1d13f03_jupiter-logo.svg" loading="lazy" width="110" alt="Hacken Logo" class="jupiter-logo"/></a><a href="https://www.kinto.xyz/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6685833135f686b81baeffef_kinto-logo.svg" loading="lazy" width="124" alt="Hacken Logo" class="kinto-logo"/></a><a href="https://www.laprop.co/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/660d7ca64073375799e299e2_laprop-logo.svg" loading="lazy" width="112" alt="LaProp Logo" class="laprop-logo"/></a><a href="http://magic.link/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9318076983524315b8909_magic-logo-ok.svg" loading="lazy" width="106" alt="Magic Logo" class="magic-logo"/></a><a href="https://www.nansen.ai/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317ef35a260716323a2d_nasen-logo-ok.svg" loading="lazy" width="118" alt="Nansen Logo" class="nansen-logo"/></a><a href="https://www.offramp.xyz/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6682e8ea11303297767cef61_offramp-logo.svg" loading="lazy" width="132" alt="Nansen Logo" class="offramp-logo"/></a><a href="https://openeden.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff54e951745b5ae439_openeden-logo.png" loading="lazy" width="128" alt="Nansen Logo" class="openeden-logo"/></a><a href="https://www.plumenetwork.xyz/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693eb9e63018d67b8d84_plume-logo.svg" loading="lazy" width="132" alt="Plume Logo" class="plume-logo"/></a><a href="https://www.polytrade.finance/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638edbf57f4e09c9f78d7_polytrade-logo.svg" loading="lazy" width="196" alt="Polytrade Logo" class="polytrade-logo"/></a><a href="https://ramp.network/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e673e3e49c743b5868f_ramp_logo.svg" loading="lazy" width="120" alt="Ramp Logo" class="ramp-logo"/></a><a href="https://retool.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693eaa46a4bf3e8eaa02_retool-logo.svg" loading="lazy" width="112" alt="Retool Logo" class="retool-logo"/></a><a href="https://www.sherlock.xyz/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693e125e3294115d9f30_sherlock-logo.svg" loading="lazy" width="120" alt="Sherlock Logo" class="sherlock-logo"/></a><a href="https://solana.org/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff9d0a20e0d5e74e5e_Solana_foundation-logo.svg" loading="lazy" width="154" alt="Sherlock Logo" class="solanaf-logo"/></a><a href="https://transak.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317e02d0ea80a5f6b650_transak-logo-ok.svg" loading="lazy" width="125" alt="Transak Logo" class="transak-logo"/></a><a href="https://www.villcaso.com/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666869002677eab531bd6389_villcaso-logo.svg" loading="lazy" width="140" alt="Transak Logo" class="villcaso-logo"/></a><a href="https://www.xade.finance/" target="_blank" class="logo-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638edbf57f4e09c9f78d4_xade-logo.png" loading="lazy" width="87" alt="Xade Logo" class="xade-logo"/></a></div></section><section class="bg-gradient-grey section-padding"><h2 class="section-title">In the News</h2><div class="w-layout-blockcontainer generic-container w-container"><div class="repeater"><div class="repeater-item"><div class="news-item"><div class="news-img"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157d0791f2ddc83c5943_bloomberg-logo.svg" loading="lazy" alt="Bloomberg Logo" class="news-logo"/></div><div class="news-text"><h3 class="news-title">Crypto Startup Aims to Tokenize Stocks by Playing by the Rules</h3><a href="http://dinari-marketing-website.webflow.io/blog/dinari-featured-in-bloomberg-crypto" target="_blank" class="news-link">Read more</a></div></div></div><div class="repeater-item"><div class="news-item"><div class="news-img"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157dd3f9424dffec8011_Coindesk_logo.svg" loading="lazy" alt="Coin Desk Logo" class="news-logo"/></div><div class="news-text"><h3 class="news-title">Dinari Raises $7.5M for Decentralized Stock Trading Platform</h3><a href="https://www.coindesk.com/business/2023/08/15/dinari-raises-75m-for-decentralized-stock-trading-platform/" target="_blank" class="news-link">Read more</a></div></div></div><div class="repeater-item"><div class="news-item"><div class="news-img"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157daba516d987cfb936_blockworks-logo%201.svg" loading="lazy" alt="Blockworks Logo" class="news-logo"/></div><div class="news-text"><h3 class="news-title">Crypto Funding: $158M week for layer-1 blockchains and a metaverse creator</h3><a href="https://blockworks.co/news/bitgo-funding-roundup" target="_blank" class="news-link">Read more</a></div></div></div></div></div><h2 class="section-title">From Our Blog</h2><div class="blog-posts-container w-dyn-list"><div role="list" class="blog-posts w-dyn-items w-row"><div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a href="/blog/ecosystem-api-partners" class="blog-post-link-container w-inline-block"><img loading="lazy" alt="Dinari Ecosystem Highlights: API Distribution Partners" src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1).png" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 44vw, 29vw" srcset="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-1080.png 1080w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-1600.png 1600w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1).png 1620w" class="blog-post-img"/><div class="blog-post-text"><p class="blog-post-date">Jul 17</p><h3 class="blog-post-title">Dinari Ecosystem Highlights: API Distribution Partners</h3><div class="blog-post-link">Read more</div></div></a></div><div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a href="/blog/new-dshares-industry-leaders" class="blog-post-link-container w-inline-block"><img loading="lazy" alt="New dShares: Johnson &amp; Johnson, AstraZeneca, TJMaxx Companies, Procter &amp; Gamble" src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6682e0feb104e36830b54eef_Industry%20leaders%20(1).png" class="blog-post-img"/><div class="blog-post-text"><p class="blog-post-date">Jul 1</p><h3 class="blog-post-title">New dShares: Johnson &amp; Johnson, AstraZeneca, TJMaxx Companies, Procter &amp; Gamble</h3><div class="blog-post-link">Read more</div></div></a></div><div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a href="/blog/new-dshares-energy" class="blog-post-link-container w-inline-block"><img loading="lazy" alt="New dShares: Energy (Exxon, Chevron)" src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1).png" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 44vw, 29vw" srcset="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1).png 1620w" class="blog-post-img"/><div class="blog-post-text"><p class="blog-post-date">Jun 24</p><h3 class="blog-post-title">New dShares: Energy (Exxon, Chevron)</h3><div class="blog-post-link">Read more</div></div></a></div></div></div><div class="generic-container-2"></div></section><section class="light-green-gradient"><h2 class="section-title">Learn more</h2><div class="w-layout-blockcontainer generic-container-2 w-container"><div class="learn-more-container"><div class="learn-more-item"><h3 class="learn-more-text">Whitepaper</h3><a href="https://assets.dinari.com/forms/dinari-whitepaper.pdf" target="_blank" class="button-outline w-button">Read</a></div><div class="learn-more-item"><h3 class="learn-more-text">Documentation</h3><a href="https://docs.dinari.com/" target="_blank" class="button-outline w-button">Read</a></div><div class="learn-more-item"><h3 class="learn-more-text">FAQ</h3><a href="https://docs.dinari.com/user-guide/faq" target="_blank" class="button-outline w-button">Get answers</a></div></div></div></section><section class="reverse-light-green-gradient position-relative mistery-box-banner"><div class="w-layout-blockcontainer generic-container w-container"><h2 class="mistery-box-banner-text anim">Sign up &amp; make a qualifying purchase to receive a <span class="text-green">dShare Mystery Box</span></h2><a href="https://sbt.dinari.com/tokens?utm_source=dinhome&amp;utm_medium=banner&amp;utm_campaign=signupbonus" target="_blank" class="button-primary button-large anim w-button">Sign Up Now</a></div><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657c72aad49ecb839d8e8379_mistery-box.svg" loading="lazy" alt="Mistery Box Illustration" class="mistery-box-banner-image anim"/></section><section class="site-footer"><div class="footer-col-300"><a href="/" aria-current="page" class="w-inline-block w--current"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657c77a68416d5b614084184_dinari-logo-white.svg" loading="lazy" alt="Dinari Logo" class="footer-logo"/></a><ul role="list" class="footer-menu w-list-unstyled"><li class="footer-menu-item footer-text-sm"><a href="/privacy" class="footer-menu-link">Privacy Policy</a></li><li class="footer-menu-item footer-text-sm"><a href="/terms" class="footer-menu-link">Terms &amp; Conditions</a></li><li class="footer-menu-item footer-text-sm"><a href="/api-terms" class="footer-menu-link">API License Agreement</a></li><li class="footer-menu-item footer-text-sm"><a href="/cdn-cgi/l/email-protection#1c74797070735c7875727d6e75327f7371236f697e76797f68215875727d6e75327f7371392e2c55726d69756e65" class="footer-menu-link">Contact us</a></li></ul><p class="text-white footer-text-sm">© <span class="year">2023</span> Dinari, Inc.</p><p class="text-white footer-text-sm max-width-225">Dinari is a registered SEC transfer agent (Section 17A(c))</p></div><div class="footer-col"><h4 class="footer-title">Products</h4><ul role="list" class="footer-menu w-list-unstyled"><li class="footer-menu-item footer-text"><a href="https://sbt.dinari.com/" target="_blank" class="footer-menu-link">Trading dApp</a></li><li class="footer-menu-item footer-text"><a href="/transparency" class="footer-menu-link">Vault Dashboard</a></li><li class="footer-menu-item footer-text"><a href="/business" class="footer-menu-link">For Business</a></li><li class="footer-menu-item footer-text"><a href="https://usd.dinari.com/" target="_blank" class="footer-menu-link">USD+</a></li><li class="footer-menu-item footer-text"><a href="https://api-enterprise.sbt.dinari.com/api/v1/docs#overview" target="_blank" class="footer-menu-link">API</a></li></ul></div><div class="footer-col"><h4 class="footer-title">Developers</h4><ul role="list" class="footer-menu w-list-unstyled"><li class="footer-menu-item footer-text"><a href="https://docs.dinari.com/user-guide/wallet-basics" target="_blank" class="footer-menu-link">Documentation</a></li><li class="footer-menu-item footer-text"><a href="https://assets.dinari.com/forms/dinari-whitepaper.pdf" target="_blank" class="footer-menu-link">Whitepaper</a></li><li class="footer-menu-item footer-text"><a href="https://status.dinari.com/" target="_blank" class="footer-menu-link">System Status</a></li><li class="footer-menu-item footer-text"><a href="https://github.com/dinaricrypto" target="_blank" class="footer-menu-link">Github</a></li></ul></div><div class="footer-col"><h4 class="footer-title">More info</h4><ul role="list" class="footer-menu w-list-unstyled"><li class="footer-menu-item footer-text"><a href="/blog" class="footer-menu-link">Blog</a></li><li class="footer-menu-item footer-text"><a href="/referrals" class="footer-menu-link">Referral Program</a></li><li class="footer-menu-item footer-text"><a href="https://sbt.dinari.com/redeem" target="_blank" class="footer-menu-link">Redeem</a></li><li class="footer-menu-item footer-text"><a href="https://docs.dinari.com/user-guide/faq" target="_blank" class="footer-menu-link">FAQ</a></li></ul></div><div class="footer-col-300"><h4 class="footer-title">Follow us on:</h4><ul role="list" class="social-menu w-list-unstyled"><li class="social-menu-item"><a href="https://twitter.com/DinariGlobal" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca597078e566fa43c6233_x-icon.svg" loading="lazy" alt="X Icon"/></a></li><li class="social-menu-item"><a href="https://t.me/dinariglobal" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5989a0c5c641a5b81f4_telegram-icon.svg" loading="lazy" alt="Telegram Icon"/></a></li><li class="social-menu-item"><a href="https://discord.gg/dinari" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5975663c76c926f9504_discord-icon.svg" loading="lazy" alt="Discord Icon"/></a></li><li class="social-menu-item"><a href="https://www.youtube.com/@dinariglobal" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658c39449f0ba90bafbe33e5_youtube-icon.svg" loading="lazy" alt="YouTube Icon"/></a></li><li class="social-menu-item"><a href="https://github.com/dinaricrypto" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca597b155e1a4763087b2_github-icon.svg" loading="lazy" alt="Github Icon"/></a></li><li class="social-menu-item"><a href="https://www.linkedin.com/company/dinari-global/" target="_blank" class="social-menu-link w-inline-block"><img src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5979a0c5c641a5b80b7_linkedin-icon.svg" loading="lazy" alt="Linkedin Icon"/></a></li></ul></div></section><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=656fd13bce08f2dc3bc50573" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/js/webflow.96571b4db.js" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- OneTrust Cookies Consent Notice start for dinari.com -->
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
+    data-domain-script="a416c7d0-f3aa-4b25-84e1-14e3552583ec"></script>
+  <script type="text/javascript">
+    function OptanonWrapper() { }
+  </script>
+  <!-- OneTrust Cookies Consent Notice end for dinari.com -->
 
-<script>
-// Dynamic Copyright year 
-Webflow.push(function() {
-  $('.year').text(new Date().getFullYear());
-});
-// Close mobile menu on links click
-let fullscreenLinks = document.querySelectorAll('a[toggle-menu]')
-fullscreenLinks.forEach((fullscreenLink) => {
-  fullscreenLink.addEventListener('click', () => {
-    document.getElementById('menu-toggler').click()
-  })
-})
-</script>
+  <style>
+    .w-webflow-badge {
+      display: none !important;
+    }
 
-<script type="application/javascript">
-if ($.cookie('restricted_country') == 1) {
-  document.body.classList.add('restricted');
-  $('.top-banner').hide();
-} else {
-  document.body.classList.add('not-restricted');
-}
-</script>
-</body></html>
+    .nav-dropdown-toggler .nav-dropdown-icon,
+    .mobile-dropdown-toggler .mobile-dropdown-icon {
+      transition: transform ease .3s
+    }
+
+    .nav-dropdown-toggler.w--open .nav-dropdown-icon,
+    .mobile-dropdown-toggler.w--open .mobile-dropdown-icon {
+      transform: rotate(180deg)
+    }
+
+    .nav-dropdown-toggler.w--open .nav-dropdown-icon::before,
+    .nav-dropdown-toggler.w--open .nav-dropdown-text {
+      color: #07846d
+    }
+
+    .mobile-dropdown-toggler.w--open .mobile-dropdown-icon::before,
+    .mobile-dropdown-toggler.w--open .mobile-dropdown-text {
+      color: #122023
+    }
+
+    .restricted .restricted-country {
+      display: flex
+    }
+
+    .not-restricted .restricted-country {
+      display: none
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div class="w-embed">
+    <style>
+      body {
+        position: relative;
+      }
+    </style>
+  </div>
+  <div id="restricted-country" class="w-layout-blockcontainer restricted-country w-container"><img
+      src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e862aa0d3fa3f98a4ad096_location-icon.svg"
+      loading="lazy" width="Auto" height="Auto" alt="Location alert icon
+" class="geotarget-icon" />
+    <p class="restricted-country-text"><strong>XFT NAV tokens are not available for sale or redemption in your
+        country.</strong> Please see <a href="https://linktr.ee/xft.reed" target="_blank"
+        class="link">our documentation</a> for more details.</p>
+  </div>
+  <div class="top-banner">
+    <p class="top-banner-text">Sign up &amp; make a qualifying purchase to receive a Mystery Box. <a
+        href="https://forms.gle/DN21tcCnGAab7Qfa6"
+        target="_blank" class="top-banner-link">Sign up now</a></p>
+  </div>
+  <nav id="navbar" class="navbar">
+    <div class="mobile-toogler-container">
+      <div class="mobile-menu-button"><a toggle-menu="toggle" href="https://x-ledger.replit.app/" target="_blank"
+          class="button-primary button-small w-button">Launch App</a></div>
+      <div id="menu-toggler" data-w-id="0e042d56-79f0-e9d9-9fdb-362f6ccb8800" class="menu-toggler">
+        <div class="menu-line-wrapper">
+          <div class="top-line"></div>
+          <div class="middle-line"></div>
+          <div class="bottom-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="site-header"><a href="/" aria-current="page" class="w-inline-block w--current"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657085889670bafa97d34234_dinari-logo-black.svg"
+          loading="lazy" alt="XFT Logo" /></a>
+      <div class="display-flex align-items-center gap-medium">
+        <div class="main-menu-container">
+          <div data-hover="true" data-delay="0" class="nav-dropdown w-dropdown">
+            <div class="nav-dropdown-toggler w-dropdown-toggle">
+              <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
+              <div class="nav-dropdown-text">Products</div>
+            </div>
+            <nav class="nav-dropdown-menu w-dropdown-list"><a href="https://x-ledger.replit.app/" target="_blank"
+                class="nav-dropdown-link w-dropdown-link">xShares</a><a href="https://x-ledger.replit.app/" target="_blank"
+                class="nav-dropdown-link w-dropdown-link">USDX</a><a
+                href="https://x-ledger.replit.app/" target="_blank"
+                class="nav-dropdown-link w-dropdown-link">API</a></nav>
+          </div><a href="https://x-ledger.replit.app/" class="nav-link">For Business</a><a href="https://x-ledger.replit.app/"
+            class="nav-link">Transparency</a><a href="https://x-ledger.replit.app/" class="nav-link">Blog</a>
+        </div><a href="https://x-ledger.replit.app/" target="_blank" class="button-primary w-button">Launch App</a>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="mobile-menu-links">
+        <div data-hover="false" data-delay="0" class="mobile-dropdown w-dropdown">
+          <div class="mobile-dropdown-toggler w-dropdown-toggle">
+            <div class="mobile-dropdown-icon w-icon-dropdown-toggle"></div>
+            <div class="mobile-dropdown-text">Products</div>
+          </div>
+          <nav class="mobile-dropdown-list w-dropdown-list"><a href="https://x-ledger.replit.app/" target="_blank"
+              class="mobile-dropdown-link w-dropdown-link">xShares</a><a href="https://x-ledger.replit.app/" target="_blank"
+              class="mobile-dropdown-link w-dropdown-link">USDX</a><a
+              href="https://x-ledger.replit.app/" target="_blank"
+              class="mobile-dropdown-link w-dropdown-link">API</a></nav>
+        </div><a href="https://x-ledger.replit.app/" toggle-menu="toggle" class="mobile-menu-link">For Business</a><a toggle-menu="toggle"
+          href="v" class="mobile-menu-link">Transparency</a><a toggle-menu="toggle" href="https://x-ledger.replit.app/"
+          class="mobile-menu-link">Blog</a>
+      </div>
+    </div>
+  </nav>
+  <section class="bg-hero">
+    <div class="hero hero-home anim">
+      <h1 class="h1 anim">Asset <span class="text-green">Backed</span> Tokens<br /></h1>
+      <p class="hero-lead anim">XFT Asset Backed Tokens provide direct exposure to the world&#x27;s
+        most trusted assets such as Google and Apple shares.</p><a href="https://x-ledger.replit.app/" target="_blank"
+        class="button-primary button-large anim w-button">Launch App</a>
+      <div class="assets anim"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6570b0fb72600af807e006d0_d-avatar-gray.svg"
+          loading="lazy" alt="XFT gray icon" />
+        <div data-delay="3000" data-animation="outin" class="assets-slider w-slider" data-autoplay="true"
+          data-easing="ease" data-hide-arrows="true" data-disable-swipe="true" data-autoplay-limit="0"
+          data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">AAPL.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">AMZN.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">DIS.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">GOOGL.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">META.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">MSFT.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">NFLX.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">NVDA.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">PFE.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">PYPL.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">TSLA.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">SPY.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">USFR.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">COIN.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">ARM.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">AMD.d</p>
+            </div>
+            <div class="asset-slide w-slide">
+              <p class="assets-slider-text">PLD.d</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-padding">
+    <div class="w-layout-blockcontainer generic-container w-container">
+      <div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fa-3bc50578"
+        class="w-layout-layout app-features wf-layout-layout">
+        <div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fb-3bc50578" class="w-layout-cell">
+          <div class="app-feature"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206dcae29e25f6b0329c8_icon-garden.svg"
+              loading="lazy" alt="App Feature Icon" class="app-feature-icon" />
+            <div class="app-feature-text">
+              <h2 class="app-feature-title">Secure and Convenient<br /></h2>
+              <p class="app-feature-desc">Transparent, programmable, and accessible around the world, Dinari tokens
+                enable new ways of accruing value.<br /></p>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-b7f3721a-867f-536a-2cf9-a0b66cea58fc-3bc50578" class="w-layout-cell cell"></div>
+        <div id="w-node-f61692ac-2793-db12-44eb-ff87cf7bd03e-3bc50578" class="w-layout-cell cell-2"></div>
+        <div id="w-node-bbc1f7d1-5b8b-1cb9-db00-8e03e8a31d32-3bc50578" class="w-layout-cell">
+          <div class="app-feature"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206ddbd9c07601c625217_icon-leafy.svg"
+              loading="lazy" alt="App Feature Icon" class="app-feature-icon" />
+            <div class="app-feature-text">
+              <h2 class="app-feature-title">Backed 1-to-1<br /></h2>
+              <p class="app-feature-desc">Each token is backed at least 100% by XFT&#x27;s reserves.<br /></p><a
+                href="https://www.dinari.com/transparency" class="button-secondary app-feature-cta w-button">See Current
+                Balances</a>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_6aecbf5c-1e7c-d246-c927-93b725c3ec17-3bc50578" class="w-layout-cell">
+          <div class="app-feature"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657206dc3424bba6d63632bd_icon-pool.svg"
+              loading="lazy" alt="App Feature Icon" class="app-feature-icon" />
+            <div class="app-feature-text">
+              <h2 class="app-feature-title">Dividends<br /></h2>
+              <p class="app-feature-desc">Dinari token holders can receive dividends and distributions. Log in to access
+                distributions.<br /></p><a href="https://x-ledger.replit.app/" target="_blank"
+                class="button-secondary app-feature-cta w-button">Launch App</a>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_5087b3f3-c18e-9d6b-dc1e-1058ab3572f7-3bc50578" class="w-layout-cell cell-3"></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-title section-title-sm">Investors</h2>
+    <div class="logos-container"><a href="http://3kvc.com/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67d202ca52a91441b0_3k-logo.svg"
+          loading="lazy" width="24" alt="3K Logo" class="_3k-logo" /></a><a href="https://500.co/" target="_blank"
+        class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67444513a9d94d7fdf_500-logo.svg"
+          loading="lazy" width="80" alt="500 Logo" class="_500-logo" /></a><a href="https://www.alchemy.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67b7fadab30e1ff986_alchemy-logo.svg"
+          loading="lazy" width="132" alt="Alchemy Logo" class="alchemy-logo" /></a><a href="https://alliance.xyz/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66589f6165a565630a21e426_alliance-logo.svg"
+          loading="lazy" width="132" alt="Alchemy Logo" class="alchemy-logo" /></a><a href="https://sancusvc.com"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67496fb34e5f7446e9_sancus-ventures-logo.svg"
+          loading="lazy" width="48" alt="Sancus Ventures Logo" class="sancus-logo" /></a><a href="https://sig.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720f16f9a41732d6d2f953_logo-sigglobal.svg"
+          loading="lazy" width="105" alt="Sig Global Logo" class="sig-logo" /></a><a href="https://versionone.vc/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e674e4de6e40b17c39e_versionone-logo.svg"
+          loading="lazy" width="141" alt="Version One Logo" class="versionone-logo" /></a></div>
+  </section>
+  <section>
+    <h2 class="section-title section-title-sm">Ecosystem</h2>
+    <div class="logos-container logos-container-sm"><a href="https://ajnafi.com/" target="_blank"
+        class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65ca348390920b3b8a2eff1b_ajna-logo.svg"
+          loading="lazy" width="Auto" alt="Ajna Logo" class="ajna-logo" /></a><a href="https://www.alchemy.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67b7fadab30e1ff986_alchemy-logo.svg"
+          loading="lazy" width="132" height="Auto" alt="Alchemy Logo" class="alchemy-logo" /></a><a
+        href="https://alpaca.markets/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572114f1cc4c95c2e1695c5_alpaca-logo-grey.svg"
+          loading="lazy" width="118" alt="Alpaca Logo" class="alpaca-logo" /></a><a href="https://arbitrum.io/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572120cda4c4aa5b6f55caf_ARB_logo.svg"
+          loading="lazy" width="157" alt="Arbitrum Logo" class="arbitrum-logo" /></a><a
+        href="https://asymmetric.financial/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff287590e467e6e2e8_asymmetric-logo.svg"
+          loading="lazy" width="134" alt="Arbitrum Logo" class="asymmetric-logo" /></a><a href="https://www.base.org/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff5a9d09ad2e64b407_base-logo.svg"
+          loading="lazy" width="106" alt="Arbitrum Logo" class="base-logo" /></a><a href="https://blast.io/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638ed58fcda0423aca25d_blast-logo.svg"
+          loading="lazy" width="126" alt="Blast Logo" class="blast-logo" /></a><a href="https://www.cadanapay.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e67bc06c91cb1d6973f_cadana-logo.svg"
+          loading="lazy" width="124" alt="Cadana Logo" class="cadana-logo" /></a><a
+        href="https://info.camelot.exchange/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65ca347f54161f1a7cf2d723_camelot-logo.svg"
+          loading="lazy" width="124" alt="Camelot Logo" class="camelot-logo" /></a><a href="https://chain.link/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66180fba4d7f0ad45c023d53_chainlink-logo.svg"
+          loading="lazy" width="130" alt="Chainlink Logo" class="chainlink-logo" /></a><a
+        href="https://www.coingecko.com/en/coins/dinari-googl" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572117dd6aa2ddc635bed97_coingecko.svg"
+          loading="lazy" width="150" alt="CoinGecko Logo" class="coingecko-logo" /></a><a
+        href="https://coinmarketcap.com/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317f0941d3afd35e5786_coinmarketcap-logo-ok.svg"
+          loading="lazy" width="185" alt="CoinMarketCap Logo" class="coinmarketcap-logo" /></a><a
+        href="https://defillama.com/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638ee500fbf2725e410df_defillama-logo.svg"
+          loading="lazy" width="141" alt="DefiLlama Logo" class="defillama-logo" /></a><a href="https://ethereum.org/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65f4458883112cf8205e2e3c_ethereum-logo.svg"
+          loading="lazy" width="166" alt="Ethereum Logo" class="ethereum-logo" /></a><a href="https://www.fordefi.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693e9fd734ffdfc2a6a8_fordefi-logo.svg"
+          loading="lazy" width="137" alt="ForDefi Logo" class="fordefi-logo" /></a><a href="https://hacken.io/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317e4f738b59c2358fd1_hacken-logo-ok.svg"
+          loading="lazy" width="136" alt="Hacken Logo" class="hacken-logo" /></a><a href="https://www.hydrax.io/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/66858331e2e04191ab9801d6_hidrax-logo.svg"
+          loading="lazy" width="144" alt="Hacken Logo" class="hidrax-logo" /></a><a href="https://jup.ag/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff16ebf768b1d13f03_jupiter-logo.svg"
+          loading="lazy" width="110" alt="Hacken Logo" class="jupiter-logo" /></a><a href="https://www.kinto.xyz/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6685833135f686b81baeffef_kinto-logo.svg"
+          loading="lazy" width="124" alt="Hacken Logo" class="kinto-logo" /></a><a href="https://www.laprop.co/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/660d7ca64073375799e299e2_laprop-logo.svg"
+          loading="lazy" width="112" alt="LaProp Logo" class="laprop-logo" /></a><a href="http://magic.link/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9318076983524315b8909_magic-logo-ok.svg"
+          loading="lazy" width="106" alt="Magic Logo" class="magic-logo" /></a><a href="https://www.nansen.ai/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317ef35a260716323a2d_nasen-logo-ok.svg"
+          loading="lazy" width="118" alt="Nansen Logo" class="nansen-logo" /></a><a href="https://www.offramp.xyz/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6682e8ea11303297767cef61_offramp-logo.svg"
+          loading="lazy" width="132" alt="Nansen Logo" class="offramp-logo" /></a><a href="https://openeden.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff54e951745b5ae439_openeden-logo.png"
+          loading="lazy" width="128" alt="Nansen Logo" class="openeden-logo" /></a><a
+        href="https://www.plumenetwork.xyz/" target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693eb9e63018d67b8d84_plume-logo.svg"
+          loading="lazy" width="132" alt="Plume Logo" class="plume-logo" /></a><a href="https://www.polytrade.finance/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638edbf57f4e09c9f78d7_polytrade-logo.svg"
+          loading="lazy" width="196" alt="Polytrade Logo" class="polytrade-logo" /></a><a href="https://ramp.network/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65720e673e3e49c743b5868f_ramp_logo.svg"
+          loading="lazy" width="120" alt="Ramp Logo" class="ramp-logo" /></a><a href="https://retool.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693eaa46a4bf3e8eaa02_retool-logo.svg"
+          loading="lazy" width="112" alt="Retool Logo" class="retool-logo" /></a><a href="https://www.sherlock.xyz/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65d8693e125e3294115d9f30_sherlock-logo.svg"
+          loading="lazy" width="120" alt="Sherlock Logo" class="sherlock-logo" /></a><a href="https://solana.org/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666868ff9d0a20e0d5e74e5e_Solana_foundation-logo.svg"
+          loading="lazy" width="154" alt="Sherlock Logo" class="solanaf-logo" /></a><a href="https://transak.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65a9317e02d0ea80a5f6b650_transak-logo-ok.svg"
+          loading="lazy" width="125" alt="Transak Logo" class="transak-logo" /></a><a href="https://www.villcaso.com/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/666869002677eab531bd6389_villcaso-logo.svg"
+          loading="lazy" width="140" alt="Transak Logo" class="villcaso-logo" /></a><a href="https://www.xade.finance/"
+        target="_blank" class="logo-link w-inline-block"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/65e638edbf57f4e09c9f78d4_xade-logo.png"
+          loading="lazy" width="87" alt="Xade Logo" class="xade-logo" /></a></div>
+  </section>
+  <section class="bg-gradient-grey section-padding">
+    <h2 class="section-title">In the News</h2>
+    <div class="w-layout-blockcontainer generic-container w-container">
+      <div class="repeater">
+        <div class="repeater-item">
+          <div class="news-item">
+            <div class="news-img"><img
+                src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157d0791f2ddc83c5943_bloomberg-logo.svg"
+                loading="lazy" alt="Bloomberg Logo" class="news-logo" /></div>
+            <div class="news-text">
+              <h3 class="news-title">Crypto Startup Aims to Tokenize Stocks by Playing by the Rules</h3><a
+                href="http://dinari-marketing-website.webflow.io/blog/dinari-featured-in-bloomberg-crypto"
+                target="_blank" class="news-link">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="repeater-item">
+          <div class="news-item">
+            <div class="news-img"><img
+                src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157dd3f9424dffec8011_Coindesk_logo.svg"
+                loading="lazy" alt="Coin Desk Logo" class="news-logo" /></div>
+            <div class="news-text">
+              <h3 class="news-title">Dinari Raises $7.5M for Decentralized Stock Trading Platform</h3><a
+                href="https://www.coindesk.com/business/2023/08/15/dinari-raises-75m-for-decentralized-stock-trading-platform/"
+                target="_blank" class="news-link">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="repeater-item">
+          <div class="news-item">
+            <div class="news-img"><img
+                src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6572157daba516d987cfb936_blockworks-logo%201.svg"
+                loading="lazy" alt="Blockworks Logo" class="news-logo" /></div>
+            <div class="news-text">
+              <h3 class="news-title">Crypto Funding: $158M week for layer-1 blockchains and a metaverse creator</h3><a
+                href="https://blockworks.co/news/bitgo-funding-roundup" target="_blank" class="news-link">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title">From Our Blog</h2>
+    <div class="blog-posts-container w-dyn-list">
+      <div role="list" class="blog-posts w-dyn-items w-row">
+        <div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a href="/blog/ecosystem-api-partners"
+            class="blog-post-link-container w-inline-block"><img loading="lazy"
+              alt="Dinari Ecosystem Highlights: API Distribution Partners"
+              src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1).png"
+              sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 44vw, 29vw"
+              srcset="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-1080.png 1080w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1)-p-1600.png 1600w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6698a3a8e8c8b0ad8801a1f1_API%20Partners%20Round%20Up%20(1).png 1620w"
+              class="blog-post-img" />
+            <div class="blog-post-text">
+              <p class="blog-post-date">Jul 17</p>
+              <h3 class="blog-post-title">Dinari Ecosystem Highlights: API Distribution Partners</h3>
+              <div class="blog-post-link">Read more</div>
+            </div>
+          </a></div>
+        <div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a
+            href="/blog/new-dshares-industry-leaders" class="blog-post-link-container w-inline-block"><img
+              loading="lazy"
+              alt="New dShares: Johnson &amp; Johnson, AstraZeneca, TJMaxx Companies, Procter &amp; Gamble"
+              src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6682e0feb104e36830b54eef_Industry%20leaders%20(1).png"
+              class="blog-post-img" />
+            <div class="blog-post-text">
+              <p class="blog-post-date">Jul 1</p>
+              <h3 class="blog-post-title">New dShares: Johnson &amp; Johnson, AstraZeneca, TJMaxx Companies, Procter
+                &amp; Gamble</h3>
+              <div class="blog-post-link">Read more</div>
+            </div>
+          </a></div>
+        <div role="listitem" class="blog-post-item w-dyn-item w-col w-col-4"><a href="/blog/new-dshares-energy"
+            class="blog-post-link-container w-inline-block"><img loading="lazy"
+              alt="New dShares: Energy (Exxon, Chevron)"
+              src="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1).png"
+              sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 44vw, 29vw"
+              srcset="https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/657b204146555b5b5b8bf8e0/6679d3b9610ad3bb0eba4f75_New%20dShares%20-%20Energy%20(1).png 1620w"
+              class="blog-post-img" />
+            <div class="blog-post-text">
+              <p class="blog-post-date">Jun 24</p>
+              <h3 class="blog-post-title">New dShares: Energy (Exxon, Chevron)</h3>
+              <div class="blog-post-link">Read more</div>
+            </div>
+          </a></div>
+      </div>
+    </div>
+    <div class="generic-container-2"></div>
+  </section>
+  <section class="light-green-gradient">
+    <h2 class="section-title">Learn more</h2>
+    <div class="w-layout-blockcontainer generic-container-2 w-container">
+      <div class="learn-more-container">
+        <div class="learn-more-item">
+          <h3 class="learn-more-text">Whitepaper</h3><a href="https://assets.dinari.com/forms/dinari-whitepaper.pdf"
+            target="_blank" class="button-outline w-button">Read</a>
+        </div>
+        <div class="learn-more-item">
+          <h3 class="learn-more-text">Documentation</h3><a href="https://docs.dinari.com/" target="_blank"
+            class="button-outline w-button">Read</a>
+        </div>
+        <div class="learn-more-item">
+          <h3 class="learn-more-text">FAQ</h3><a href="https://docs.dinari.com/user-guide/faq" target="_blank"
+            class="button-outline w-button">Get answers</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reverse-light-green-gradient position-relative mistery-box-banner">
+    <div class="w-layout-blockcontainer generic-container w-container">
+      <h2 class="mistery-box-banner-text anim">Sign up &amp; make a qualifying purchase to receive a <span
+          class="text-green">dShare Mystery Box</span></h2><a
+        href="https://sbt.dinari.com/tokens?utm_source=dinhome&amp;utm_medium=banner&amp;utm_campaign=signupbonus"
+        target="_blank" class="button-primary button-large anim w-button">Sign Up Now</a>
+    </div><img
+      src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657c72aad49ecb839d8e8379_mistery-box.svg"
+      loading="lazy" alt="Mistery Box Illustration" class="mistery-box-banner-image anim" />
+  </section>
+  <section class="site-footer">
+    <div class="footer-col-300"><a href="/" aria-current="page" class="w-inline-block w--current"><img
+          src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657c77a68416d5b614084184_dinari-logo-white.svg"
+          loading="lazy" alt="XFT Logo" class="footer-logo" /></a>
+      <ul role="list" class="footer-menu w-list-unstyled">
+        <li class="footer-menu-item footer-text-sm"><a href="/privacy" class="footer-menu-link">Privacy Policy</a></li>
+        <li class="footer-menu-item footer-text-sm"><a href="/terms" class="footer-menu-link">Terms &amp; Conditions</a>
+        </li>
+        <li class="footer-menu-item footer-text-sm"><a href="/api-terms" class="footer-menu-link">API License
+            Agreement</a></li>
+        <li class="footer-menu-item footer-text-sm"><a
+            href="/cdn-cgi/l/email-protection#1c74797070735c7875727d6e75327f7371236f697e76797f68215875727d6e75327f7371392e2c55726d69756e65"
+            class="footer-menu-link">Contact us</a></li>
+      </ul>
+      <p class="text-white footer-text-sm">© <span class="year">2023</span> Dinari, Inc.</p>
+      <p class="text-white footer-text-sm max-width-225">Dinari is a registered SEC transfer agent (Section 17A(c))</p>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-title">Products</h4>
+      <ul role="list" class="footer-menu w-list-unstyled">
+        <li class="footer-menu-item footer-text"><a href="https://x-ledger.replit.app/" target="_blank"
+            class="footer-menu-link">Trading dApp</a></li>
+        <li class="footer-menu-item footer-text"><a href="/transparency" class="footer-menu-link">Vault Dashboard</a>
+        </li>
+        <li class="footer-menu-item footer-text"><a href="/business" class="footer-menu-link">For Business</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://x-ledger.replit.app/" target="_blank"
+            class="footer-menu-link">USD+</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://x-ledger.replit.app/"
+            target="_blank" class="footer-menu-link">API</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-title">Developers</h4>
+      <ul role="list" class="footer-menu w-list-unstyled">
+        <li class="footer-menu-item footer-text"><a href="https://docs.dinari.com/user-guide/wallet-basics"
+            target="_blank" class="footer-menu-link">Documentation</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://assets.dinari.com/forms/dinari-whitepaper.pdf"
+            target="_blank" class="footer-menu-link">Whitepaper</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://status.dinari.com/" target="_blank"
+            class="footer-menu-link">System Status</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://github.com/dinaricrypto" target="_blank"
+            class="footer-menu-link">Github</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-title">More info</h4>
+      <ul role="list" class="footer-menu w-list-unstyled">
+        <li class="footer-menu-item footer-text"><a href="/blog" class="footer-menu-link">Blog</a></li>
+        <li class="footer-menu-item footer-text"><a href="/referrals" class="footer-menu-link">Referral Program</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://sbt.dinari.com/redeem" target="_blank"
+            class="footer-menu-link">Redeem</a></li>
+        <li class="footer-menu-item footer-text"><a href="https://docs.dinari.com/user-guide/faq" target="_blank"
+            class="footer-menu-link">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col-300">
+      <h4 class="footer-title">Follow us on:</h4>
+      <ul role="list" class="social-menu w-list-unstyled">
+        <li class="social-menu-item"><a href="https://twitter.com/DinariGlobal" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca597078e566fa43c6233_x-icon.svg"
+              loading="lazy" alt="X Icon" /></a></li>
+        <li class="social-menu-item"><a href="https://t.me/dinariglobal" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5989a0c5c641a5b81f4_telegram-icon.svg"
+              loading="lazy" alt="Telegram Icon" /></a></li>
+        <li class="social-menu-item"><a href="https://discord.gg/dinari" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5975663c76c926f9504_discord-icon.svg"
+              loading="lazy" alt="Discord Icon" /></a></li>
+        <li class="social-menu-item"><a href="https://www.youtube.com/@dinariglobal" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/658c39449f0ba90bafbe33e5_youtube-icon.svg"
+              loading="lazy" alt="YouTube Icon" /></a></li>
+        <li class="social-menu-item"><a href="https://github.com/dinaricrypto" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca597b155e1a4763087b2_github-icon.svg"
+              loading="lazy" alt="Github Icon" /></a></li>
+        <li class="social-menu-item"><a href="https://www.linkedin.com/company/dinari-global/" target="_blank"
+            class="social-menu-link w-inline-block"><img
+              src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/657ca5979a0c5c641a5b80b7_linkedin-icon.svg"
+              loading="lazy" alt="Linkedin Icon" /></a></li>
+      </ul>
+    </div>
+  </section>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=656fd13bce08f2dc3bc50573"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/js/webflow.96571b4db.js"
+    type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+    integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    // Dynamic Copyright year 
+    Webflow.push(function () {
+      $('.year').text(new Date().getFullYear());
+    });
+    // Close mobile menu on links click
+    let fullscreenLinks = document.querySelectorAll('a[toggle-menu]')
+    fullscreenLinks.forEach((fullscreenLink) => {
+      fullscreenLink.addEventListener('click', () => {
+        document.getElementById('menu-toggler').click()
+      })
+    })
+  </script>
+
+  <script type="application/javascript">
+    if ($.cookie('restricted_country') == 1) {
+      document.body.classList.add('restricted');
+      $('.top-banner').hide();
+    } else {
+      document.body.classList.add('not-restricted');
+    }
+  </script>
+</body>
+
+</html>
